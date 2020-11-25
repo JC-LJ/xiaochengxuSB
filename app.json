@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/comments/comments",
+    "pages/ranking/ranking",
+    "pages/logs/logs"
+  ],
+
+  "window":{
+    "navigationBarTitleText": "书吧",
+    "navigationBarBackgroundColor": "#900",
+    "navigationBarTextStyle":"white",
+    "backgroundTextStyle":"light"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#900",
+    "list": [
+      {"pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index_disabled.png",
+      "selectedIconPath": "images/index_enabled.png"
+      },
+      {"pagePath": "pages/ranking/ranking",
+        "text": "排行榜",
+        "iconPath": "images/ranking_disabled.png",
+        "selectedIconPath": "images/ranking_enabled.png"
+        }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

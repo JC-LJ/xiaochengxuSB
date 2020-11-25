@@ -1,0 +1,45 @@
+.swiper{
+  width:750rpx;
+  height:375rpx;
+}
+.swiper image{ 
+  width:750rpx;
+  height:375rpx;
+}
+.container{
+  margin:0 16rpx;
+}
+.cateItem{
+  margin-top:15rpx;
+}
+.header{
+  font-size:34rpx;
+  font-weight:bold;
+  padding-bottom:15rpx;
+  margin-bottom: 15rpx;
+  border-bottom:1rpx dotted #ccc;
+}
+.bookItem navigator{
+  display: flex;
+  align-items: top;
+  margin-bottom:20rpx;
+}
+.bookItem image{
+  width:200rpx;
+  height:200rpx;
+  padding:10rpx;
+  border:1px solid #ccc;
+  border-radius: 5px;
+}
+.bookInfo{
+  margin-left:20rpx;
+}
+.bookTitle{
+  font-size:30rpx;
+  margin-bottom:30rpx;
+}
+.minorCate,.author{
+  font-size:26rpx;
+  margin-bottom: 30rpx;
+  color:#999;
+}
